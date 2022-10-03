@@ -1,3 +1,14 @@
+
+const innerWrapper =
+        ` <h2>QR Code Reader/Generator</h2>
+        <input type="text" id="text" placeholder="Enter text ..." class="input" />
+        <button type="button"  id="button">Generate QR</button>
+        <div class="qr-image">
+          <span class="error"></span><br />
+          <img src="" id="img" />
+        </div>
+`
+document.querySelector("#page-container")
 function generateQR() {
   document.querySelector(".qr-image").style.display = "block";
   let QRtext = document.querySelector("#text").value;
