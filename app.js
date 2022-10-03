@@ -8,7 +8,7 @@ const innerWrapper =
           <img src="" id="img" />
         </div>
 `
-document.querySelector("#page-container")
+document.querySelector(".page-container").innerHTML = innerWrapper;
 function generateQR() {
   document.querySelector(".qr-image").style.display = "block";
   let QRtext = document.querySelector("#text").value;
