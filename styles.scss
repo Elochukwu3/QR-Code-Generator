@@ -14,25 +14,28 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 .page-container {
-  padding: 40px 60px;
+  width: 70%;
   background-color: #fff;
   display: flex;
   align-items: center;
   border: 5px solid rgba(190, 190, 190, 1);
   box-shadow: 0 0 15px rgb(61, 164, 201);
   flex-direction: column;
+  border-radius: 5px;
 
   h2 {
-    font-size: 2rem;
+    font-size: 1.7rem;
     margin-bottom: 1rem;
   }
   .input {
-    height: 1.5rem;
-    padding: 12px 20px;
+    height: 2.5rem;
+    width: 80%;
     font-size: 2rem;
-    background-color: lightgrey;
+    background-color: snow;
     color: #000;
     margin-bottom: 20px;
+    border: 2px solid rgb(61, 164, 201);
+    border-radius: 5px;
   }
   #button {
     padding: 12px 20px;
@@ -43,6 +46,7 @@ body {
     text-transform: uppercase;
     font-weight: 700;
     letter-spacing: 2px;
+    border-radius: 4px;
     cursor: pointer;
   }
   #qr-image {
